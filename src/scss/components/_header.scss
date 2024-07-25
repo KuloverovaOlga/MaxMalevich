@@ -1,12 +1,13 @@
 .header {
 	// position: absolute;
 	position: fixed;
-	width: 100%;
+	// width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 1200;
+	z-index: 120;
 	transform: translateY(0);
 	transition: transform 1s ease-in-out;
+	right: var(--fancybox-scrollbar-compensate, 0);
 
 	// Если нужна будет анимация баннера убрать коммент
 	&.anim {
